@@ -1,5 +1,4 @@
-
-.navbar-nav a{
+/*.navbar-nav a{
 	font-family: poppins;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -11,7 +10,17 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-}
+}*/
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+
 
 .carousel-item{
 	height: 100vh;
@@ -21,3 +30,8 @@
 	background-size: cover;
 }
 
+/*.d-block {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}*/
